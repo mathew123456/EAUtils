@@ -347,13 +347,13 @@ To listDatasets
     node DataflowUtil.js --listDatasets --sourceFile "[source]"
 
 To prune a specific dataset OUT from source file to dest file
-    node DataflowUtil.js --pruneDataset --sourceFile "[source]" --datasetName --destFile "[dest]"
+    node DataflowUtil.js --pruneDataset --sourceFile "[source]" --datasetName "[dataset]" --destFile "[dest]"
 
 To rename all the entities (with a prefix) that lead to a dataset read from source file and renaming to dest file
-    node DataflowUtil.js --renameDataset --sourceFile "[source]" --datasetName --prefix "prefix" --destFile "[dest]"
+    node DataflowUtil.js --renameDataset --sourceFile "[source]" --datasetName "[dataset]" --prefix "prefix" --destFile "[dest]"
 
 To extract all the entities that lead to a dataset read from source file and saving to dest file, ie, write out one chain/ flow
-    node DataflowUtil.js --extractDataset --sourceFile "[source]" --datasetName --destFile "[dest]"
+    node DataflowUtil.js --extractDataset --sourceFile "[source]" --datasetName "[dataset]" --destFile "[dest]"
     
     `)
      
