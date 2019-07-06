@@ -1,0 +1,27 @@
+{
+  "name": "eautils",
+  "version": "1.0.0",
+  "description": "Simple EA utils",
+  "main": "DataflowUtil.js",
+  "dependencies": {
+    "command-line-args": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathew123456/EAUtils.git"
+  },
+  "keywords": [
+    "einstein",
+    "analytics"
+  ],
+  "author": "Mathew Horvath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathew123456/EAUtils/issues"
+  },
+  "homepage": "https://github.com/mathew123456/EAUtils#readme"
+}
