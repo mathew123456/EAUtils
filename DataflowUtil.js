@@ -193,6 +193,12 @@ function renameDataflow(filename, datasetName, newName, outputFilename) {
         if(value.parameters.hasOwnProperty('source') && flowToProcess.entityList.includes(value.parameters.source)) {
             newValue.parameters.source = newName + value.parameters.source
         }
+        if(value.parameters.hasOwnProperty('left') && flowToProcess.entityList.includes(value.parameters.left)) {
+            newValue.parameters.left = newName + value.parameters.left
+        }
+        if(value.parameters.hasOwnProperty('right') && flowToProcess.entityList.includes(value.parameters.right)) {
+            newValue.parameters.right = newName + value.parameters.right
+        }
 
         entityCopy[newKey] = newValue
     })
